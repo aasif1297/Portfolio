@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,33 +7,47 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am <span className="purple">Asif Jawed </span>
+            from <span className="purple"> Karachi, Pakistan.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            currently rocking it as a Software Lead at goodBot, Germany. Beyond the code, I'm an adrenaline junkie hooked on:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+            🪂 Indoor Skydiving
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+            🚣‍♂️ Kayaking
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+            🏞 Canyoning
+            </li>
+            <li className="about-activity">
+            🏎️ Go Karting
+            </li>
+            <li className="about-activity">
+            🎿 Skiing
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <br />
+          <p style={{ textAlign: "justify" }}>
+          Activites that I want to try in future are:
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <ul> <li className="about-activity">
+          🤿 Scuba Diving
+          </li>
+          <li className="about-activity">
+          ✈️ Skydiving
+          </li>
+          <li className="about-activity">
+          🌆 Conquering the world's tallest building
+          </li>
+          </ul>
+          <br /><br />
+          <p style={{ color: "rgb(155 126 172)" }}>
+            "The only limit to your success is you.!"{" "}
+          </p>
+          <footer className="blockquote-footer">Asif</footer>
         </blockquote>
       </Card.Body>
     </Card>
