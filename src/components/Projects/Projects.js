@@ -24,17 +24,18 @@ function Projects() {
               isBlog={false}
               title="MyGhar Customer App"
               description="Hassle Free Living All inclusive living spaces designed for young professionals & travelers."
-              ghLink=""
+              // ghLink=""
               demoLink="https://play.google.com/store/apps/details?id=com.mygharliving.my_ghar_customer"
             />
           </Col>
+          
           <Col md={4} className="project-card">
           <ProjectCard
               imgPath={eqClient}
               isBlog={false}
               title="Equigate Customer App"
               description="The all-in-one app for equine professionals. Equigate is an all-in-one app for all equine professionals. With effortless bookings, secure payments, direct messaging, instant and dependable reports plus many other features. Equigate provides reliability, structure and efficiency allowing you to focus on what you do best."
-              ghLink=""
+              // ghLink=""
               demoLink="https://play.google.com/store/apps/details?id=com.equigate.client"
             />
           </Col>
