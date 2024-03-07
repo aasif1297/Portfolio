@@ -27,7 +27,9 @@ function Projects() {
               ghLink=""
               demoLink="https://play.google.com/store/apps/details?id=com.mygharliving.my_ghar_customer"
             />
-            <ProjectCard
+          </Col>
+          <Col md={4} className="project-card">
+          <ProjectCard
               imgPath={eqClient}
               isBlog={false}
               title="Equigate Customer App"
@@ -36,7 +38,6 @@ function Projects() {
               demoLink="https://play.google.com/store/apps/details?id=com.equigate.client"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>
