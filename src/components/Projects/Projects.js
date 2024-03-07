@@ -31,27 +31,7 @@ function Projects() {
               imgPath={eqClient}
               isBlog={false}
               title="Equigate Customer App"
-              description="The all-in-one app for equine professionals.
-
-              Equigate is an all-in-one app for all equine professionals. With effortless bookings, secure payments, direct messaging, instant and dependable reports plus many other features. Equigate provides reliability, structure and efficiency allowing you to focus on what you do best.
-              
-              There are profiles for everyone with tailored areas specific to your profession:
-              
-              •Equine and canine body workers and therapists
-              •Farriers
-              •Dentists
-              •Saddle fitters
-              
-              The future of your business, in your pocket
-              
-              Saving you and your clients time, Equigate takes care of all administrative angles, allowing you to focus on the practice you know and love.
-              Less time on admin, so you can spend more time doing what you’re great at
-              
-              
-              Records, communication, payments. Everything lives inside the app
-              
-              The all-in-one nature of Equigate allows you to maintain complete control of your schedule.
-              Centralising your messaging and appointment system, simple record management, and visible in app payment management."
+              description="The all-in-one app for equine professionals. Equigate is an all-in-one app for all equine professionals. With effortless bookings, secure payments, direct messaging, instant and dependable reports plus many other features. Equigate provides reliability, structure and efficiency allowing you to focus on what you do best."
               ghLink=""
               demoLink="https://play.google.com/store/apps/details?id=com.equigate.client"
             />
