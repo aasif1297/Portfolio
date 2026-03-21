@@ -31,7 +31,7 @@ function Projects() {
               isBlog={false}
               title="MyGhar Customer"
               description="Hassle Free Living All inclusive living spaces designed for young professionals & travelers."
-              // ghLink=""
+              // ghLink="" // no github repo for this project
               demoLink="https://apps.apple.com/us/app/myghar/id1561400870"
             />
           </Col>
