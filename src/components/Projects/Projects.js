@@ -8,6 +8,8 @@ import myghar_manager from "../../Assets/Projects/myghar_manager.png";
 import designhome from "../../Assets/Projects/designhome.png";
 import beeper from "../../Assets/Projects/beeper.png";
 import agxpe from "../../Assets/Projects/agxpe.png";
+import bp from "../../Assets/Projects/better_pixels.jpeg";
+import wango from "../../Assets/Projects/wango.png";
 
 
 function Projects() {
@@ -30,11 +32,11 @@ function Projects() {
               title="MyGhar Customer"
               description="Hassle Free Living All inclusive living spaces designed for young professionals & travelers."
               // ghLink=""
-              demoLink="https://play.google.com/store/apps/details?id=com.mygharliving.my_ghar_customer"
+              demoLink="https://apps.apple.com/us/app/myghar/id1561400870"
             />
           </Col>
           
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
           <ProjectCard
               imgPath={myghar_manager}
               isBlog={false}
@@ -42,7 +44,7 @@ function Projects() {
               description="MyGhar Manager App allows managers to easily manage things without hassle."
               demoLink="https://play.google.com/store/apps/details?id=com.flutter.manager_app&hl=en-US"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
           <ProjectCard
@@ -55,7 +57,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
           <ProjectCard
               imgPath={designhome}
               isBlog={false}
@@ -63,7 +65,7 @@ function Projects() {
               description="AI-Powered Designs: Let AI generate personalized designs based on your style preferences, room size, and furniture choices. Just input your ideas, and watch as stunning designs unfold before your eyes."
               demoLink="https://apps.apple.com/us/app/design-homes-ai/id6642678450"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
           <ProjectCard
@@ -76,7 +78,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
           <ProjectCard
               imgPath={agxpe}
               isBlog={false}
@@ -84,6 +86,29 @@ function Projects() {
               description="Association for GxP Excellence is an organization comprised of quality, compliance and training professionals throughout the world. Association for GxP Excellence is an organization comprised of quality, compliance and training professionals throughout the world. We are a U.S Federally recognized 501 (C) 3, not-for-profit. Our membership is free and open to all who wish to join."
               // ghLink=""
               demoLink="https://apps.apple.com/us/app/agxpe-conference-2022/id1440044607"
+            />
+          </Col> */}
+         
+          <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={wango}
+              isBlog={false}
+              title="Wango World"
+              description="Discover Exciting Events and Things to do anywhere with Wangoworld
+              Your Gateway to Unforgettable Experiences
+              Wangoworld is the place for discovering exciting events, places to visit, things to do around you, and best tickets to purchase. From finding concerts, festivals, shows, sports events, or cultural gatherings, Wangoworld offers a comprehensive range of options tailored to your interests and preferences using our AI-powered platform."
+              // ghLink=""
+              demoLink="https://apps.apple.com/us/app/wangoworld-events-tickets/id6498964119"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={bp}
+              isBlog={false}
+              title="Better Pixels"
+              description="Better Habits, Pixel perfect habits, beautifully tracked"
+              // ghLink=""
+              demoLink="https://betterpixels.vercel.app/"
             />
           </Col>
         </Row>
