@@ -4,7 +4,6 @@ import myImg from "../../Assets/m2-modified.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
   AiFillFacebook,
 } from "react-icons/ai";
@@ -19,7 +18,7 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
+            <div className="home-about-body">
             <h3><b className="purple">Hello there! I'm Muhammad Asif Jawed,</b></h3>
             Seasoned Senior Mobile Engineer | Tech Enthusiast | Knowledge Sharer
             <br />
@@ -35,7 +34,7 @@ function Home2() {
             <h3><b className="purple">Beyond the Code</b></h3>
             I believe in the power of knowledge-sharing. When I'm not immersed in lines of code, you can find me sharing insights and experiences with the tech community through my articles on Medium. I see every piece as an opportunity to contribute to the collective growth of our industry.
             <br />
-            </p>
+            </div>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

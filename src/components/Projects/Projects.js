@@ -4,10 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import mygharCustomer from "../../Assets/Projects/myghar_customer.png";
 import eqClient from "../../Assets/Projects/eq_client.png";
-import myghar_manager from "../../Assets/Projects/myghar_manager.png";
-import designhome from "../../Assets/Projects/designhome.png";
 import beeper from "../../Assets/Projects/beeper.png";
-import agxpe from "../../Assets/Projects/agxpe.png";
 import bp from "../../Assets/Projects/better_pixels.jpeg";
 import wango from "../../Assets/Projects/wango.png";
 
